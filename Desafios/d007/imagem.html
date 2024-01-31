@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens flexiveis</title>
+</head>
+<body>
+    <h1>Criando imagens flexíveis</h1>
+    <p>Você está vendo uma imagem completa? Tente aumentar a tela para ter uma surpresa 🤪.</p>
+    <picture>
+      <source media="(max-width:700px )" srcset="imagens/mucalol-p.png" type="image/png">
+      <source media="(max-width:1200px )" srcset="imagens/mucalol-m.png" type="image/png">
+      <img src="imagens/mucalol.png" alt="Imagem flexivel">
+
+    </picture>
+</body>
+</html>

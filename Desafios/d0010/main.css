@@ -1,0 +1,21 @@
+body {
+    background-color: #17b283;
+}
+main {
+    text-align: center;
+    background: linear-gradient( #160000, #131d2b, #1a283a, #1c2a3d, #283c58, #17b283);
+    padding: 68px 313px;
+    margin: 9px 201px;
+    box-shadow: 2px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+@font-face {
+    font-family: Iddroid;
+    src: url(fontes/IDroid.otf);
+}
+#hist {
+    font-family: Iddroid;
+    color: #19c08ecc ;
+}
+#prov {
+    color: #19c08ecc;
+}
